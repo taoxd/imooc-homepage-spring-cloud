@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homepage-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homepage-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imooc-homepage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/imooc-homepage-service/homepage-common" charset="UTF-8" />
   </component>
 </project>
