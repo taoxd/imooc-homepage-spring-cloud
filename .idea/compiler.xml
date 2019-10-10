@@ -9,6 +9,7 @@
         <module name="homepage-common" />
         <module name="homepage-course" />
         <module name="homepage-eureka" />
+        <module name="homepage-user" />
         <module name="homepage-zuul" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="homepage-common" options="-parameters" />
       <module name="homepage-course" options="-parameters" />
       <module name="homepage-eureka" options="-parameters" />
+      <module name="homepage-user" options="-parameters" />
       <module name="homepage-zuul" options="-parameters" />
       <module name="imooc-homepage-service" options="-parameters" />
     </option>
