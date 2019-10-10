@@ -49,11 +49,11 @@ public class HomepageUserServiceTest {
     @Test
     public void testCreateHomepageUserCourse() {
         HomepageUserCourse course1 = new HomepageUserCourse();
-        course1.setUserId(2L);
+        course1.setUserId(1L);
         course1.setCourseId(1L);
 
         HomepageUserCourse course2 = new HomepageUserCourse();
-        course2.setUserId(2L);
+        course2.setUserId(1L);
         course2.setCourseId(2L);
 
         System.out.println(userCourseDao.saveAll(

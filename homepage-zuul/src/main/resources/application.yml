@@ -9,3 +9,23 @@ eureka:
   client:
     service-url:
       defaultZone: http://server1:8000/eureka/
+
+zuul:
+  # 可选的，通过网关访问微服务的时候，带上前缀
+  prefix: /imooc
+  # 路由信息
+  routes:
+    course:
+      # url包含 /homepage-course 的时候，即配置文件的context-path
+      path: /homepage-course/**
+      # 路由地址，即项目(实例)名称
+      serviedId: eureka-client-homepage-course
+      # 如果设置true，前缀会被去除掉
+      strip-prefix: false
+    user:
+      # url包含 /homepage-user 的时候，即配置文件的context-path
+      path: /homepage-user/**
+      # 路由地址，即项目(实例)名称
+      serviedId: eureka-client-homepage-user
+      # 如果设置true，前缀会被去除掉
+      strip-prefix: false
